@@ -1,6 +1,6 @@
-# Netlify Build plugin cache-folder
+# netlify-plugin-cache-folder
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e09bcd9b-e7f2-4e00-98c7-26712ecdc9ef/deploy-status)](https://app.netlify.com/sites/netlify-plugin-cache-folder/deploys)
+![npm](https://img.shields.io/npm/v/netlify-plugin-cache-folder) ![Netlify](https://img.shields.io/netlify/e09bcd9b-e7f2-4e00-98c7-26712ecdc9ef) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/netlify-plugin-cache-folder)
 
 This Netlify build plugin will cache the **/_cache/** folder between builds.
 
