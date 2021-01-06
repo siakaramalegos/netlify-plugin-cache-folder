@@ -1,6 +1,6 @@
 {
   "name": "netlify-plugin-cache-folder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Netlify Build plugin - Netlify build plugin to cache the /_cache/ folder between builds",
   "main": "src/index.js",
   "files": [
