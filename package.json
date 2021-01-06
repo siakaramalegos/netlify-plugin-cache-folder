@@ -1,13 +1,18 @@
 {
   "name": "netlify-plugin-cache-folder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Netlify Build plugin - Netlify build plugin to cache the /_cache/ folder between builds",
   "main": "src/index.js",
   "files": [
     "src",
     "!*~"
   ],
-  "keywords": ["netlify", "netlify-plugin", "build", "plugins"],
+  "keywords": [
+    "netlify",
+    "netlify-plugin",
+    "build",
+    "plugins"
+  ],
   "author": "Sia Karamalegos <siakaramalegos@gmail.com> (https://sia.codes/)",
   "license": "MIT",
   "repository": {
