@@ -1,4 +1,4 @@
-name: 'netlify-plugin-{{name}}'
+name: 'netlify-plugin-cache-folder'
 inputs: []
 # Example inputs:
 #  - name: example
