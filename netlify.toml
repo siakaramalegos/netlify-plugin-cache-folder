@@ -6,7 +6,7 @@
 [[plugins]]
 # Use the current plugin in builds for testing and debugging.
 # Local path to the plugin.
-package = "."
+package = "./src/index.js"
   # Plugin configuration
   #  [plugins.inputs]
   #  foo = "bar"
