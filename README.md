@@ -1,9 +1,6 @@
-Netlify Build plugin cache-folder - Netlify build plugin to cache the /_cache/ folder between builds.
+# Netlify Build plugin cache-folder
+This Netlify build plugin will cache the /_cache/ folder between builds.
 
-# Install
+## Install
 
-Please install this plugin from the Netlify app.
-
-# Configuration
-
-The following `inputs` options are available.
+Please install this plugin from the Netlify app. For more information, see the Netlify Build Plugins [install docs](https://docs.netlify.com/configure-builds/build-plugins/#install-a-plugin).
