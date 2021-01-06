@@ -1,5 +1,5 @@
 name: 'netlify-plugin-cache-folder'
-inputs: []
+# inputs: []
 # Example inputs:
 #  - name: example
 #    description: Example description

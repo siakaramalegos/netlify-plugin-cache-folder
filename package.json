@@ -7,13 +7,16 @@
     "src",
     "!*~"
   ],
-  "keywords": [
-    "netlify-plugin",
-    "netlify"
-  ],
+  "keywords": ["netlify", "netlify-plugin", "build", "plugins"],
   "author": "Sia Karamalegos <siakaramalegos@gmail.com>",
   "license": "MIT",
-  "repository": "siakaramalegos/netlify-plugin-cache-folder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siakaramalegos/netlify-plugin-cache-folder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siakaramalegos/netlify-plugin-cache-folder/issues"
+  },
   "directories": {
     "lib": "src",
     "test": "test"
