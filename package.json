@@ -32,26 +32,16 @@
   },
   "scripts": {
     "build": "netlify-build",
-    "test": "npm run lint && npm run ava",
-    "lint": "npm run eslint && npm run prettier",
-    "eslint": "eslint --ignore-path .gitignore --fix --cache --format=codeframe --max-warnings=0 \"{src,init}/**/*.js\"",
-    "prettier": "prettier --ignore-path .gitignore --write --loglevel warn \"{.github,src,init}/**/*.{js,md,yml,json}\" \"*.{js,md,yml,json}\"",
+    "test": "npm run ava",
     "ava": "cross-env FORCE_COLOR=1 ava --verbose",
     "release": "release-it"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@netlify/build": "^4.7.2",
+    "@netlify/build": "^0.0.1",
     "ava": "^3.13.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.10.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
     "execa": "^4.0.3",
-    "netlify-cli": "^2.65.0",
-    "prettier": "^2.1.2",
+    "netlify-cli": "^2.12.0",
     "release-it": "^14.0.3"
   }
 }
